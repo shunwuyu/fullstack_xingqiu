@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsc-watch --onSuccess \"node dist/main.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.52",
+    "typescript": "^5.1.6",
+    "tsc-watch": "^4.6.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^12.0.0",
+    "@types/dotenv": "^8.2.0",
+    "dotenv": "^16.3.1",
+    "koa": "^2.14.2"
+  }
+}
